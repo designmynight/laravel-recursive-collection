@@ -3,7 +3,7 @@ Laravel Recursive Collection
 
 [![Latest Stable Version](http://img.shields.io/github/release/designmynight/laravel-recursive-collection.svg)](https://packagist.org/packages/designmynight/laravel-recursive-collection) [![Total Downloads](http://img.shields.io/packagist/dm/designmynight/laravel-recursive-collection.svg)](https://packagist.org/packages/designmynight/laravel-recursive-collection)
 
-A service provider to add support for for converting nested arrays and associve arrays into laravel collections
+A service provider to add support for for converting nested arrays and associative arrays into laravel collections
 
 Table of contents
 -----------------
@@ -40,7 +40,7 @@ $app->register(DesignMyNight\Laravel\RecursiveCollectionServiceProvider::class);
 Example
 ------------
 
-```
+```php
 $data = [
     [
         'name' => 'John Doe',

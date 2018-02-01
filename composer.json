@@ -1,0 +1,44 @@
+{
+    "name": "designmynight/laravel-recursive-collection",
+    "description": "A package to convert nested arrays and associative arrays into nested collections",
+    "homepage": "https://github.com/designmynight/laravel-recursive-collection",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "laravel-collection",
+        "laravel-recursive-collection",
+        "collection",
+        "designmynight"
+    ],
+    "require": {
+        "illuminate/support": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "DesignMyNight\\Laravel\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DesignMyNight\\Laravel\\Tests\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "Steve Porter",
+            "email": "steve@designmynight.com",
+            "role": "Developer"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DesignMyNight\\Laravel\\RecursiveCollectionServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.5",
+        "phpunit/phpunit": "^6.5"
+    }
+}

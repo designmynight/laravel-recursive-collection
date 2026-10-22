@@ -24,6 +24,8 @@ composer require designmynight/laravel-recursive-collection
  Laravel  | Package
 :---------|:----------
  5.5.x    | 1.0.x
+ 6.x, 7.x | 2.x
+ 12.x, 13.x (PHP 8.3+) | 3.x
 
 And add the service provider in `config/app.php`:
 

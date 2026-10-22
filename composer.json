@@ -11,7 +11,8 @@
         "designmynight"
     ],
     "require": {
-        "illuminate/support": "^6.0 || ^7.0"
+        "php": "^8.3",
+        "illuminate/support": "^12.0 || ^13.0"
     },
     "autoload": {
         "psr-4": {
@@ -38,7 +39,7 @@
         }
     },
     "require-dev": {
-        "orchestra/testbench": "^3.5",
-        "phpunit/phpunit": "^6.5"
+        "orchestra/testbench": "^10.0 || ^11.0",
+        "phpunit/phpunit": "^11.0"
     }
 }
